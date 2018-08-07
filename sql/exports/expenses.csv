@@ -1,9 +1,0 @@
-"expenses_id";"date";"expenses_value";"description";"department_id";"catergory_expenses_id"
-1;"2018-08-01 00:00:00";15.25;"Utilities July";18;1
-2;"2018-07-15 00:00:00";12.99;"Intenet service July";18;2
-3;"2018-08-01 00:00:00";30.5;"Intenet service July";15;2
-4;"2018-07-15 00:00:00";12.5;"New equipment";15;7
-5;"2018-08-01 00:00:00";45.25;"Intenet service July";1;2
-6;"2018-07-15 00:00:00";32.85;"Mailing products";6;6
-7;"2018-07-15 00:00:00";16.5;"Utilities June";21;12
-8;"2018-08-01 00:00:00";15.9;"Utilities June";5;1
