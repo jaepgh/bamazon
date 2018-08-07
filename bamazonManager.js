@@ -46,6 +46,10 @@ function userOptions() {
                 case "Add New Product":
                     newProduct();
                     break;
+
+                case "Exit":
+                    connection.end();
+                    break;
             }
         })
 }

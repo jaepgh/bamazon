@@ -1,0 +1,4 @@
+"user_id";"user_name";"creation_date";"user_password"
+1;"anonymous";"2018-08-03 00:00:00";"master"
+2;"manager1";"2018-08-03 00:00:00";"root"
+3;"supervisor1";"2018-08-03 00:00:00";"root"
