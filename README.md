@@ -19,5 +19,5 @@ As a manager the user will be able to:
 * View Products sales per Department.
 * Create a new department.
 
-#### Notes:
-The app is console based and includes a SQL file with dummy data (seeds.sql) and the complete structure for the database can be found on the file schema.sql. Please run both files with out changing the order provided inside the file. 
+### Notes:
+The app is console based and includes a SQL file with dummy data (seeds.sql).The complete structure for the database can be found on the file schema.sql. Please run both files with out changing the order provided inside the file. 
