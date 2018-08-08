@@ -25,7 +25,8 @@ function userOptions() {
             choices: [
                 "Add to my shopping car",
                 "Go to checkout",
-                "List of products"
+                "List of products",
+                "Exit"
             ]
         })
         .then(function (answer) {
@@ -40,6 +41,10 @@ function userOptions() {
 
                 case "List of products":
                     listProducts();
+                    break;
+
+                case "Exit":
+                    connection.end();
                     break;
             }
         })
@@ -75,11 +80,12 @@ function checkOut() {
                     if (err) {
                         console.log("Error transaction incomplete!" + err);
                     } else {
-                        //Do nothing
+                        //Empty shopping car
+                        shoppingCar = [];
                     }
                 });
             });
-            connection.end();
+            userOptions();
         }
     });
 }
